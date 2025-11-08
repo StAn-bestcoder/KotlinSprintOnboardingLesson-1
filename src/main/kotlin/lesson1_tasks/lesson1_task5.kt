@@ -1,15 +1,17 @@
 package org.example.lesson1_tasks
 
 fun main() {
-    val hour: String = "01"
-    val colonFirst: Char = ':'
-    val minutes: Byte = 48
-    val colonSecond: Char = ':'
-    val seconds: String = "00"
+   val allTime = 6480
+   val minutes1 = 6480/60
+   val hour1 = minutes1/60
+   val remainingMinutes = 48
+   val remainingSeconds = "00"
+   val colon1 = ':'
+   val colon2 = ':'
 
-    print(hour)
-    print(colonFirst)
-    print(minutes)
-    print(colonSecond)
-    print(seconds)
+   print(hour1)
+   print(colon1)
+   print(remainingMinutes)
+   print(colon2)
+   print(remainingSeconds)
 }
